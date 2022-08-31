@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 
 def home_view(request):
-    return HttpResponse("<h1>Welcome to Django Tutorial</h1>");
+    return render(request,"index.html", {});
 
 def product_view(request):
     return HttpResponse("<h1>project</h1>");
