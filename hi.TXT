@@ -1,0 +1,20 @@
+pip install virtualenv
+virtualenv venv 
+venv/Scripts/active
+pip install django
+pip freeze > requirements.txt
+
+create project 
+django-admin startproject djangokk
+py manage.py runserver
+
+
+admin ==> web
+python manage.py createsuperuser
+ur name : , pass, emai
+
+create model:
+py manage.py startapp
+
+py manage.py makemigrations
+py manage.py migrate
