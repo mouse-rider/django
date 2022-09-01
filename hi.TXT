@@ -1,10 +1,10 @@
 pip install virtualenv
-virtualenv venv 
-venv/Scripts/active
+py -m virtualenv venv 
+cd venv/Scripts/active
 pip install django
 pip freeze > requirements.txt
 
-create project 
+create project :
 django-admin startproject djangokk
 py manage.py runserver
 
